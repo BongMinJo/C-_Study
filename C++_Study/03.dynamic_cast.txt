@@ -1,0 +1,6 @@
+<dynamic_cast>
+C++에서 상속 관계에 있는 두 포인터들 간에 캐스팅
+사용법은 static_cast와 동일
+
+컴파일 시 캐스팅을 할 수 없다는 컴파일 오류가 발생
+Derived* p_c = dyanmic_cast<Derived*>(p_p);

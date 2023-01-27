@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{9a72a723-9789-4acd-94f2-f9085d468de8}</ProjectGuid>
+    <RootNamespace>CStudy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="01.==연산자오버로딩.cpp" />
+    <ClCompile Include="01.C++템플릿.cpp" />
+    <ClCompile Include="01.C++표준템플릿라이브러리%28STL%29.txt" />
+    <ClCompile Include="01.friend키워드.cpp" />
+    <ClCompile Include="01.fstream.cpp" />
+    <ClCompile Include="01.new_delete.cpp" />
+    <ClCompile Include="01.virtual소멸자.cpp" />
+    <ClCompile Include="01.가변길이템플릿.cpp" />
+    <ClCompile Include="01.객체.cpp" />
+    <ClCompile Include="01.문법.cpp" />
+    <ClCompile Include="01.소수인지아닌지판별.cpp" />
+    <ClCompile Include="01.스타크래프트만들기.cpp" />
+    <ClCompile Include="01.일반화프로그래밍.cpp" />
+    <ClCompile Include="01.입출력라이브러리.txt" />
+    <ClCompile Include="01.참조자도입.cpp" />
+    <ClCompile Include="01.함수의오버로딩.cpp" />
+    <ClCompile Include="02.assign함수.cpp" />
+    <ClCompile Include="02.Date클래스.cpp" />
+    <ClCompile Include="02.istream클래스.cpp" />
+    <ClCompile Include="02.mutable.cpp" />
+    <ClCompile Include="02.new배열.cpp" />
+    <ClCompile Include="02.vector.cpp" />
+    <ClCompile Include="02.단위라이브러리.cpp" />
+    <ClCompile Include="02.소멸자.cpp" />
+    <ClCompile Include="02.오버라이딩.cpp" />
+    <ClCompile Include="02.이항연산자.cpp" />
+    <ClCompile Include="02.임의의개수의문자열을합치는함수.cpp" />
+    <ClCompile Include="02.클래스.cpp" />
+    <ClCompile Include="02.템플릿메타프로그래밍.cpp" />
+    <ClCompile Include="02.템플릿특수화.cpp" />
+    <ClCompile Include="02.파일전체읽기.cpp" />
+    <ClCompile Include="02.함수인자.cpp" />
+    <ClCompile Include="03.auto.cpp" />
+    <ClCompile Include="03.dynamic_cast.txt" />
+    <ClCompile Include="03.iterator.cpp" />
+    <ClCompile Include="03.operaotr[]문제.cpp" />
+    <ClCompile Include="03.sizeof.cpp" />
+    <ClCompile Include="03.this.cpp" />
+    <ClCompile Include="03.TMP를 왜쓰는가.cpp" />
+    <ClCompile Include="03.가상함수의구현원리.cpp" />
+    <ClCompile Include="03.대입연산자함수.cpp" />
+    <ClCompile Include="03.마이펫.cpp" />
+    <ClCompile Include="03.복사생성자.cpp" />
+    <ClCompile Include="03.상속.cpp" />
+    <ClCompile Include="03.생성자.cpp" />
+    <ClCompile Include="03.파일에쓰기.cpp" />
+    <ClCompile Include="03.함수템플릿.cpp" />
+    <ClCompile Include="03.형식플래그와조작자.cpp" />
+    <ClCompile Include="04.EmployeeList다시보기.cpp" />
+    <ClCompile Include="04.erase함수.cpp" />
+    <ClCompile Include="04.FoldExpression.cpp" />
+    <ClCompile Include="04.ofstream연산자오버로딩.cpp" />
+    <ClCompile Include="04.protected.cpp" />
+    <ClCompile Include="04.디폴트생성자.cpp" />
+    <ClCompile Include="04.레퍼런스를리턴하는함수.cpp" />
+    <ClCompile Include="04.문자열로complex수와덧셈.cpp" />
+    <ClCompile Include="04.상수참조자.cpp" />
+    <ClCompile Include="04.순수가상함수와추상클래스.cpp" />
+    <ClCompile Include="04.스트림버퍼.cpp" />
+    <ClCompile Include="04.첨자연산자.cpp" />
+    <ClCompile Include="04.함수객체의도입.cpp" />
+    <ClCompile Include="05.const함수.cpp" />
+    <ClCompile Include="05.virtual키워드.cpp" />
+    <ClCompile Include="05.다중상속.cpp" />
+    <ClCompile Include="05.문자열스트림.cpp" />
+    <ClCompile Include="05.배열의레퍼런스.cpp" />
+    <ClCompile Include="05.사원관리프로그램에적용하기.cpp" />
+    <ClCompile Include="05.생성자오버로딩.cpp" />
+    <ClCompile Include="05.타입변환연산자-Wrapper클래스.cpp" />
+    <ClCompile Include="05.타입이아닌템플릿인자.cpp" />
+    <ClCompile Include="06.compare함수.cpp" />
+    <ClCompile Include="06.deque.cpp" />
+    <ClCompile Include="06.override키워드.cpp" />
+    <ClCompile Include="06.다중상속시주의할점.cpp" />
+    <ClCompile Include="06.디폴트템플릿인자.cpp" />
+    <ClCompile Include="06.레퍼런스리턴함수.cpp" />
+    <ClCompile Include="06.증감연산자.cpp" />
+    <ClCompile Include="07.다형성-Employee해결.cpp" />
+    <ClCompile Include="ex2.cpp" />
+    <ClCompile Include="ex1.cpp" />
+    <ClCompile Include="01.기본.cpp" />
+    <ClCompile Include="ex3.cpp" />
+    <ClCompile Include="02.static변수.cpp" />
+    <ClCompile Include="04.디폴트복사생성자의한계.cpp" />
+    <ClCompile Include="01.생성자의초기화리스트.cpp" />
+    <ClCompile Include="01.문자열클래스.cpp" />
+    <ClCompile Include="03.insert함수.cpp" />
+    <ClCompile Include="05.find함수.cpp" />
+    <ClCompile Include="01.explicit.cpp" />
+    <ClCompile Include="02.복소스클래스.cpp" />
+    <ClCompile Include="03.입출력연산자오버로딩.cpp" />
+    <ClCompile Include="02.N차원배열만들기.cpp" />
+    <ClCompile Include="02.사원관리프로그램.cpp" />
+    <ClCompile Include="01.표준string클래스.cpp" />
+    <ClCompile Include="02.레퍼런스.cpp" />
+    <ClCompile Include="05.list.cpp" />
+    <ClCompile Include="04.범위기반for문.cpp" />
+    <ClCompile Include="01.set.cpp" />
+    <ClCompile Include="클래스객체를set에넣고싶을때.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header1.h" />
+    <ClInclude Include="header2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="03.참조자예시.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="01.C++캐스팅.txt" />
+    <Text Include="01.is-a,has-a.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

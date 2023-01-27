@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\02.참조자">
+      <UniqueIdentifier>{6953ec5f-a0b5-453f-8817-3fe112b1cee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.new/delete">
+      <UniqueIdentifier>{e88e296e-1fc3-459a-bbcf-cfef163ad1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04-01.객체">
+      <UniqueIdentifier>{a1aecd3f-e6f3-4731-8ea3-fb936fc12fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04-02.오버로딩">
+      <UniqueIdentifier>{a42e5c8f-4593-4c8e-b620-ed94d19228f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01-02.namespace">
+      <UniqueIdentifier>{f4b93e82-1269-4c59-bc9d-cb190539fe61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01-02.namespace\02.namespace">
+      <UniqueIdentifier>{06346f22-ab25-4bd6-a076-2c270a5f73e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01-03.기본문법">
+      <UniqueIdentifier>{9717a0b4-f6d4-49f9-a209-479a2a407a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04-03.복사생성자,소멸자">
+      <UniqueIdentifier>{7bf4789e-f0a8-4d97-bf9c-2297199a9554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04-04.const/static">
+      <UniqueIdentifier>{54bc707d-a304-4e90-a370-8aa1c69314b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04-05.string">
+      <UniqueIdentifier>{7cff9ae0-c0a4-42c4-9514-83242bfe2af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04-06.explicit/mutable">
+      <UniqueIdentifier>{ea7e2e24-4a6b-4560-99b7-8458d29f13e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05-01.연산자오버로딩">
+      <UniqueIdentifier>{66431553-3c41-4b83-bf01-9c322ebcbefe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05-02.입출력,첨자,타입변환,증감연산자오버로딩">
+      <UniqueIdentifier>{a95c07ca-8eea-463e-a5cb-011a5da6a386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05-03.연산자오버로딩프로젝트-N차원배열">
+      <UniqueIdentifier>{c7c0b585-3c4a-4f1b-8e4e-347719d5cbbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06-01.상속">
+      <UniqueIdentifier>{a06872ed-3003-4e5a-a7a6-09ed163772f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06-02.가상함수와다형성">
+      <UniqueIdentifier>{429e571d-9efa-429c-84d8-e8dd4ff9475e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06-03.가상함수,상속">
+      <UniqueIdentifier>{7931a749-b3e7-47c0-bbd0-360c27aa1a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07-01.입출력%28istream,ostream%29">
+      <UniqueIdentifier>{c6d628fe-feea-4c76-b204-5274a67f29d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07-02.파일입출력%28ifstream,ofstream,stringstream%29">
+      <UniqueIdentifier>{99212b74-f443-4c71-9571-ad3e4148931f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08.Excel만들기프로젝트">
+      <UniqueIdentifier>{4baf5303-2621-43d9-9209-988d39dcea69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09-01.C++템플릿">
+      <UniqueIdentifier>{9859ec42-8891-4a21-984e-3171579e9cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09-02.가변길이템플릿">
+      <UniqueIdentifier>{be138771-58c5-4a4b-901d-9d3156b19721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09-03.템플릿메타프로그래밍">
+      <UniqueIdentifier>{883bf0c5-4c86-4df9-9e49-8ebbceb973bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09-04.템플릿메타프로그래밍2">
+      <UniqueIdentifier>{d0d8833f-947b-4eb6-b65a-cb8fad31235f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10-01.vector/list/deque">
+      <UniqueIdentifier>{07ac1f87-c50f-4171-9acc-558bcf798945}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01.기본.cpp">
+      <Filter>소스 파일\01-02.namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="ex1.cpp">
+      <Filter>소스 파일\01-02.namespace\02.namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="ex2.cpp">
+      <Filter>소스 파일\01-02.namespace\02.namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="ex3.cpp">
+      <Filter>소스 파일\01-02.namespace\02.namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="01.문법.cpp">
+      <Filter>소스 파일\01-03.기본문법</Filter>
+    </ClCompile>
+    <ClCompile Include="01.참조자도입.cpp">
+      <Filter>소스 파일\02.참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="02.함수인자.cpp">
+      <Filter>소스 파일\02.참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="04.상수참조자.cpp">
+      <Filter>소스 파일\02.참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="05.배열의레퍼런스.cpp">
+      <Filter>소스 파일\02.참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="06.레퍼런스리턴함수.cpp">
+      <Filter>소스 파일\02.참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="01.new_delete.cpp">
+      <Filter>소스 파일\03.new/delete</Filter>
+    </ClCompile>
+    <ClCompile Include="02.new배열.cpp">
+      <Filter>소스 파일\03.new/delete</Filter>
+    </ClCompile>
+    <ClCompile Include="03.마이펫.cpp">
+      <Filter>소스 파일\03.new/delete</Filter>
+    </ClCompile>
+    <ClCompile Include="01.객체.cpp">
+      <Filter>소스 파일\04-01.객체</Filter>
+    </ClCompile>
+    <ClCompile Include="02.클래스.cpp">
+      <Filter>소스 파일\04-01.객체</Filter>
+    </ClCompile>
+    <ClCompile Include="01.함수의오버로딩.cpp">
+      <Filter>소스 파일\04-02.오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="02.Date클래스.cpp">
+      <Filter>소스 파일\04-02.오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="03.생성자.cpp">
+      <Filter>소스 파일\04-02.오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="04.디폴트생성자.cpp">
+      <Filter>소스 파일\04-02.오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="05.생성자오버로딩.cpp">
+      <Filter>소스 파일\04-02.오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="01.스타크래프트만들기.cpp">
+      <Filter>소스 파일\04-03.복사생성자,소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="02.소멸자.cpp">
+      <Filter>소스 파일\04-03.복사생성자,소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="03.복사생성자.cpp">
+      <Filter>소스 파일\04-03.복사생성자,소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="04.디폴트복사생성자의한계.cpp">
+      <Filter>소스 파일\04-03.복사생성자,소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="01.생성자의초기화리스트.cpp">
+      <Filter>소스 파일\04-04.const/static</Filter>
+    </ClCompile>
+    <ClCompile Include="02.static변수.cpp">
+      <Filter>소스 파일\04-04.const/static</Filter>
+    </ClCompile>
+    <ClCompile Include="03.this.cpp">
+      <Filter>소스 파일\04-04.const/static</Filter>
+    </ClCompile>
+    <ClCompile Include="04.레퍼런스를리턴하는함수.cpp">
+      <Filter>소스 파일\04-04.const/static</Filter>
+    </ClCompile>
+    <ClCompile Include="05.const함수.cpp">
+      <Filter>소스 파일\04-04.const/static</Filter>
+    </ClCompile>
+    <ClCompile Include="01.문자열클래스.cpp">
+      <Filter>소스 파일\04-05.string</Filter>
+    </ClCompile>
+    <ClCompile Include="02.assign함수.cpp">
+      <Filter>소스 파일\04-05.string</Filter>
+    </ClCompile>
+    <ClCompile Include="03.insert함수.cpp">
+      <Filter>소스 파일\04-05.string</Filter>
+    </ClCompile>
+    <ClCompile Include="04.erase함수.cpp">
+      <Filter>소스 파일\04-05.string</Filter>
+    </ClCompile>
+    <ClCompile Include="05.find함수.cpp">
+      <Filter>소스 파일\04-05.string</Filter>
+    </ClCompile>
+    <ClCompile Include="06.compare함수.cpp">
+      <Filter>소스 파일\04-05.string</Filter>
+    </ClCompile>
+    <ClCompile Include="01.explicit.cpp">
+      <Filter>소스 파일\04-06.explicit/mutable</Filter>
+    </ClCompile>
+    <ClCompile Include="02.mutable.cpp">
+      <Filter>소스 파일\04-06.explicit/mutable</Filter>
+    </ClCompile>
+    <ClCompile Include="01.==연산자오버로딩.cpp">
+      <Filter>소스 파일\05-01.연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="03.대입연산자함수.cpp">
+      <Filter>소스 파일\05-01.연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="02.복소스클래스.cpp">
+      <Filter>소스 파일\05-01.연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="04.문자열로complex수와덧셈.cpp">
+      <Filter>소스 파일\05-01.연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="01.friend키워드.cpp">
+      <Filter>소스 파일\05-02.입출력,첨자,타입변환,증감연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="02.이항연산자.cpp">
+      <Filter>소스 파일\05-02.입출력,첨자,타입변환,증감연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="03.입출력연산자오버로딩.cpp">
+      <Filter>소스 파일\05-02.입출력,첨자,타입변환,증감연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="04.첨자연산자.cpp">
+      <Filter>소스 파일\05-02.입출력,첨자,타입변환,증감연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="05.타입변환연산자-Wrapper클래스.cpp">
+      <Filter>소스 파일\05-02.입출력,첨자,타입변환,증감연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="06.증감연산자.cpp">
+      <Filter>소스 파일\05-02.입출력,첨자,타입변환,증감연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="02.N차원배열만들기.cpp">
+      <Filter>소스 파일\05-03.연산자오버로딩프로젝트-N차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="03.operaotr[]문제.cpp">
+      <Filter>소스 파일\05-03.연산자오버로딩프로젝트-N차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="01.표준string클래스.cpp">
+      <Filter>소스 파일\06-01.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="02.사원관리프로그램.cpp">
+      <Filter>소스 파일\06-01.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="03.상속.cpp">
+      <Filter>소스 파일\06-01.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="04.protected.cpp">
+      <Filter>소스 파일\06-01.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="05.사원관리프로그램에적용하기.cpp">
+      <Filter>소스 파일\06-01.상속</Filter>
+    </ClCompile>
+    <ClCompile Include="02.오버라이딩.cpp">
+      <Filter>소스 파일\06-02.가상함수와다형성</Filter>
+    </ClCompile>
+    <ClCompile Include="03.dynamic_cast.txt">
+      <Filter>소스 파일\06-02.가상함수와다형성</Filter>
+    </ClCompile>
+    <ClCompile Include="04.EmployeeList다시보기.cpp">
+      <Filter>소스 파일\06-02.가상함수와다형성</Filter>
+    </ClCompile>
+    <ClCompile Include="05.virtual키워드.cpp">
+      <Filter>소스 파일\06-02.가상함수와다형성</Filter>
+    </ClCompile>
+    <ClCompile Include="06.override키워드.cpp">
+      <Filter>소스 파일\06-02.가상함수와다형성</Filter>
+    </ClCompile>
+    <ClCompile Include="07.다형성-Employee해결.cpp">
+      <Filter>소스 파일\06-02.가상함수와다형성</Filter>
+    </ClCompile>
+    <ClCompile Include="01.virtual소멸자.cpp">
+      <Filter>소스 파일\06-03.가상함수,상속</Filter>
+    </ClCompile>
+    <ClCompile Include="02.레퍼런스.cpp">
+      <Filter>소스 파일\06-03.가상함수,상속</Filter>
+    </ClCompile>
+    <ClCompile Include="03.가상함수의구현원리.cpp">
+      <Filter>소스 파일\06-03.가상함수,상속</Filter>
+    </ClCompile>
+    <ClCompile Include="04.순수가상함수와추상클래스.cpp">
+      <Filter>소스 파일\06-03.가상함수,상속</Filter>
+    </ClCompile>
+    <ClCompile Include="05.다중상속.cpp">
+      <Filter>소스 파일\06-03.가상함수,상속</Filter>
+    </ClCompile>
+    <ClCompile Include="06.다중상속시주의할점.cpp">
+      <Filter>소스 파일\06-03.가상함수,상속</Filter>
+    </ClCompile>
+    <ClCompile Include="01.입출력라이브러리.txt">
+      <Filter>소스 파일\07-01.입출력%28istream,ostream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="02.istream클래스.cpp">
+      <Filter>소스 파일\07-01.입출력%28istream,ostream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="03.형식플래그와조작자.cpp">
+      <Filter>소스 파일\07-01.입출력%28istream,ostream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="04.스트림버퍼.cpp">
+      <Filter>소스 파일\07-01.입출력%28istream,ostream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="01.fstream.cpp">
+      <Filter>소스 파일\07-02.파일입출력%28ifstream,ofstream,stringstream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="02.파일전체읽기.cpp">
+      <Filter>소스 파일\07-02.파일입출력%28ifstream,ofstream,stringstream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="03.파일에쓰기.cpp">
+      <Filter>소스 파일\07-02.파일입출력%28ifstream,ofstream,stringstream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="04.ofstream연산자오버로딩.cpp">
+      <Filter>소스 파일\07-02.파일입출력%28ifstream,ofstream,stringstream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="05.문자열스트림.cpp">
+      <Filter>소스 파일\07-02.파일입출력%28ifstream,ofstream,stringstream%29</Filter>
+    </ClCompile>
+    <ClCompile Include="01.C++템플릿.cpp">
+      <Filter>소스 파일\09-01.C++템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="02.템플릿특수화.cpp">
+      <Filter>소스 파일\09-01.C++템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="03.함수템플릿.cpp">
+      <Filter>소스 파일\09-01.C++템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="04.함수객체의도입.cpp">
+      <Filter>소스 파일\09-01.C++템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="05.타입이아닌템플릿인자.cpp">
+      <Filter>소스 파일\09-01.C++템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="06.디폴트템플릿인자.cpp">
+      <Filter>소스 파일\09-01.C++템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="01.가변길이템플릿.cpp">
+      <Filter>소스 파일\09-02.가변길이템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="02.임의의개수의문자열을합치는함수.cpp">
+      <Filter>소스 파일\09-02.가변길이템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="03.sizeof.cpp">
+      <Filter>소스 파일\09-02.가변길이템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="04.FoldExpression.cpp">
+      <Filter>소스 파일\09-02.가변길이템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="01.일반화프로그래밍.cpp">
+      <Filter>소스 파일\09-03.템플릿메타프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="02.템플릿메타프로그래밍.cpp">
+      <Filter>소스 파일\09-03.템플릿메타프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="03.TMP를 왜쓰는가.cpp">
+      <Filter>소스 파일\09-03.템플릿메타프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="01.소수인지아닌지판별.cpp">
+      <Filter>소스 파일\09-04.템플릿메타프로그래밍2</Filter>
+    </ClCompile>
+    <ClCompile Include="02.단위라이브러리.cpp">
+      <Filter>소스 파일\09-04.템플릿메타프로그래밍2</Filter>
+    </ClCompile>
+    <ClCompile Include="03.auto.cpp">
+      <Filter>소스 파일\09-04.템플릿메타프로그래밍2</Filter>
+    </ClCompile>
+    <ClCompile Include="01.C++표준템플릿라이브러리%28STL%29.txt">
+      <Filter>소스 파일\10-01.vector/list/deque</Filter>
+    </ClCompile>
+    <ClCompile Include="02.vector.cpp">
+      <Filter>소스 파일\10-01.vector/list/deque</Filter>
+    </ClCompile>
+    <ClCompile Include="03.iterator.cpp">
+      <Filter>소스 파일\10-01.vector/list/deque</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header1.h">
+      <Filter>소스 파일\01-02.namespace\02.namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="header2.h">
+      <Filter>소스 파일\01-02.namespace\02.namespace</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="03.참조자예시.cpp">
+      <Filter>소스 파일\02.참조자</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="01.C++캐스팅.txt">
+      <Filter>소스 파일\05-03.연산자오버로딩프로젝트-N차원배열</Filter>
+    </Text>
+    <Text Include="01.is-a,has-a.txt">
+      <Filter>소스 파일\06-02.가상함수와다형성</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

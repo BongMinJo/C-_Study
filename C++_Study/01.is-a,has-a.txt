@@ -1,0 +1,31 @@
+<상속을 사용하는 경우>
+단순히 똑같은 코드를 또 쓰는 것을 막기위한 것만은 아니다.
+객체지향프로그래밍에서 추구하는 실제 객체의 추상화를 좀 더 효과적으로 할 수 있다.
+
+상속의 개념이 없는 C 언어에소는 구조체 사이의 관계를 표현할 방법이 없다.
+C++ 에서는 클래스 사이에 관계를 표현할 수 있게 됐다.
+
+<class Manager : public Employee>
+Manager 클래스는 Employee의 모든 기능을 포함
+Manager 클래스는 Employee의 기능을 모두 수행 
+즉 모든 Manager는 Employee이다.
+Manager is Employee
+
+<상속 관계는 is a 관계>
+뒤바꾸면 성립되지 않는다.
+
+클래스가 파생될수록 좀 더 특수화 해진다.
+기반 클래스로 거슬러 올라가면 좀 더 일반화 된다.
+
+<has a 관계>
+class Car {
+ private:
+  Engine e;
+  Brake b;  // 아마 break 아니냐고 생각하는 사람들이 있을 텐데 :)
+  ....
+};
+
+class EmployeeList {
+  int alloc_employee;        // 할당한 총 직원 수
+  int current_employee;      // 현재 직원 수
+  Employee **employee_list;  // 직원 데이터
